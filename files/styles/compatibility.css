@@ -1,0 +1,15 @@
+body{
+    width: 100%;
+    min-height: 100vh;
+}
+
+@media(max-width:1000px){
+    .container .product{
+        width: 50%;
+    }
+}
+@media screen and(max-width:500px){
+    .container .product{
+        width: 100%;
+    }
+}

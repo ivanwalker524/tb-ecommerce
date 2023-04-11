@@ -1,0 +1,51 @@
+.btn{
+    width: 100%;
+    padding: 10px 4px;
+    border: none;
+    border-radius: 5px;
+    background-color: aliceblue;
+    outline: none;
+    font-size: 20px;
+}
+.box{
+    width: 50%;
+    padding: 20px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #eee;
+}
+.box h1{
+    margin-bottom: 10px;
+    text-transform: capitalize;
+}
+.box .inputBox,textarea{
+    width: 100%;
+    padding: 10px 4px;
+    border: none;
+    background-color: white;
+    border-radius: 5px;
+    margin: 10px 0;
+    outline: none;
+    font-size: 20px;
+}
+table{
+    border-collapse: collapse;
+}
+th{
+    text-align: start;
+}
+th,td{
+    border: 1px solid gray;
+    padding: 2px 5px;
+}
+td:nth-child(3){
+    background-color: azure;
+}
+td:nth-child(even){
+    background-color: #eee;
+}
+td:nth-child(5){
+    background: azure;
+}

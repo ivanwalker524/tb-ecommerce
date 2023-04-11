@@ -1,0 +1,17 @@
+.all{
+    display: flex;
+    flex-direction: column;
+    height: 900vh;
+}
+.footer{
+    background: #333;
+    margin-top: 50px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    
+}
+.footer .auto{
+    color: #fff;
+}
